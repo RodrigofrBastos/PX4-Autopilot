@@ -1,0 +1,10 @@
+#!/bin/sh
+#
+# @name Gazebo x500 solar fly
+#
+# @type Quadrotor
+#
+
+PX4_SIM_MODEL=${PX4_SIM_MODEL:=x500_solar_fly}
+
+. ${R}etc/init.d-posix/airframes/4001_gz_x500
